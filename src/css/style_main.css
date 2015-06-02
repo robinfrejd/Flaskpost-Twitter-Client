@@ -1,0 +1,103 @@
+@font-face {
+
+	font-family:		OpenSans-Light;
+	src:				url("../fonts/OpenSans-Light.ttf");
+}
+
+* {
+
+	margin: 			0;
+	padding: 			0;
+}
+body {
+	background-image: 	url("../img/bg2.jpg");
+
+}
+
+h1 {
+	
+	font-family:		OpenSans-Light, sans-serif;
+	color: 				#4381CC;
+	margin:				0px;
+	margin-bottom: 		4px;
+}
+
+#wrapper {
+
+	background-color:	#000;
+	position:			static;
+	margin: 			0 auto;
+	max-width:			1000px;
+}
+
+
+#nav {
+
+	background-color: 	#f6f6f6;
+	position:			absolute;
+	top:				0px;
+	height:				50px;
+	width:				1000px;
+}
+
+#nav img {
+
+	width:				32px;
+	margin:				15px;
+	display:			block;
+	margin-left:		auto;
+	margin-right:		auto;
+}
+
+.nav_li li {
+
+	float:				right;
+	display:			inline-block;
+}
+
+#content {
+
+	background-color: 	#fff;
+	color:		 		#000;
+	position:			absolute;
+	top:				50px;
+	bottom:				0px;
+	width:				1000px;
+	margin-left: 		auto;
+	margin-right: 		auto;
+	overflow: 			auto;
+}
+
+.textBox {
+
+	height: 			30px;
+	width: 				250px;
+	margin:				5px;
+	font-family: 		OpenSans-Light, sans-serif;
+	font-size:			20px;
+}
+
+#submitBtn {
+
+	font-family: 		OpenSans-Light, sans-serif;
+	background-color: 	#3a70b1;
+	font-size: 			14px;
+	color:				#fff;
+	border:				1px solid #3a70b1;
+	
+	cursor:				pointer;
+	height: 			60px;
+	width: 				100px;
+	border-radius:		10px;
+	margin: 			5px;
+	margin-bottom:		5px;
+}
+
+#submitBtn:hover {
+	
+	background-color:	#498cdd;
+	border:				1px solid #498cdd;
+	color: 				#fff;
+}
+
+

@@ -1,0 +1,93 @@
+@font-face {
+
+	font-family:		FiraSans-Light;
+	src:				url("../fonts/FiraSans-Light.otf");
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body {
+	background-image: 	url("../img/bg2.jpg");
+}
+
+h1 {
+	
+	font-family:		FiraSans-Light, sans-serif;
+	color: 				#4381CC;
+	margin:				0px;
+	margin-bottom: 		4px;
+}
+
+#content {
+
+	background-color: 	#fff;
+	font-color: 		#000;
+	
+	overflow:			auto;
+	position:			absolute;
+	padding:			20px;
+	top:				15px;
+	height: 			650px;
+	border-radius:		30px;
+	width:				500px;
+	left:				50%;
+	margin-left: 		-280px;
+	-moz-box-shadow: 	0 8px 6px -6px rgba(70, 70, 70, 1);
+	-webkit-box-shadow: 0 8px 6px -6px rgba(70, 70, 70, 1);
+	box-shadow: 		0 8px 6px -6px rgba(70, 70, 70, 1);
+}
+
+.inputField {
+
+	height: 			30px;
+	width: 				250px;
+	margin-left:		0px;
+	margin-top:			3px;
+	margin-bottom: 		10px;
+	font-family: 		FiraSans-Light, sans-serif;
+	font-size:			20px;
+}
+
+#submitBtn {
+
+	font-family: 		FiraSans-Light, sans-serif;
+	background-color: 	#3a70b1;
+	font-size: 			14px;
+	color:				#fff;
+	border:				1px solid #3a70b1;
+	
+	cursor:				pointer;
+	height: 			50px;
+	width: 				auto;
+	padding-left:		10px;
+	padding-right:		10px;
+	border-radius:		10px;
+	margin-bottom:		5px;
+	-moz-transition:  	0.5s;    
+}
+
+#submitBtn:hover {
+
+	background-color:	#498cdd;
+	border:				1px solid #498cdd;
+}
+
+.error_msg {
+	
+	font-family: 		FiraSans-Light, sans-serif;
+	color: 				#ff0000;
+	margin:				5px;
+}
+
+.success_msg {
+	
+	font-family: 		FiraSans-Light, sans-serif;
+	color: 				#31ba16;
+	margin:				5px;
+	padding: 			0;
+	margin-left:		5px;
+}
+
